@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>GU New Card Listing</title>
+    <link rel="stylesheet" type="text/css" href="gu.css" />
+    <script src="gu.js"></script>
+    <script>
+      window.onload = function() {
+          showTabNews();
+      };
+   </script>
+</head>
+<body>
+        <div class='title'>
+                      Gods Unchained New Listing tracker
+        </div>
+
+		<div id="SectionNews">
+    <section>
+		<button onclick=getNews() style="float: right;";>Refresh</button>
+		<input type="checkbox" id="sold" name="sold">
+			<label for="sold">Include Sold</label>
+		<input type="checkbox" id="ether" name="ether">
+			<label for="ether">ETH</label>
+		<input type="checkbox" id="refresh60" name="refresh60">
+			<label for="refresh60">Refresh 60</label>
+        <table id="SectionNewsdata"></table>
+    </section>
+    </div>
+</body>

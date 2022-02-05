@@ -1,0 +1,48 @@
+body { 
+    background-color: #EEF;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.orderEven {
+   background-color: lightgray;
+}
+
+.orderOdd {
+   background-color: Tomato;
+}
+
+.orderTitle {
+   background-color: cornflowerblue;
+}
+
+input[type=checkbox] {
+  vertical-align: middle;
+  float: right;
+}
+label {
+  display: block;
+  overflow: hidden;
+  width: 120px;
+}
+
+label{
+    width:70px;
+    margin-right:10px;
+    text-align:right;
+    float: right;
+    }
+
+
+div.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
